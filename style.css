@@ -1,0 +1,41 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 41);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0px;
+}
+    body{
+    background-image: url("back 2.png");
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+    .item {
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        width:310px;
+        font-family:fantasy;
+        
+
+    }
+    a:link{
+        color: white;
+    }
+    
+    a:visited{
+        color: white;
+    }
+    .item:hover{
+        transform: scale(1.2);
+    }
